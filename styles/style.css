@@ -1,0 +1,108 @@
+main
+{
+  display: flex;
+  justify-content: center;
+  
+}
+.landing
+{
+  padding: 4rem 1.9rem 3.5rem 1.9rem;
+  font-size: 1.5rem;
+}
+.landing-info
+{
+  text-align: center;
+  
+}
+.bold-heading
+{
+  font-weight: 500;
+  letter-spacing: 0.25px;
+}
+.landing-head
+{
+  font-family: poppins,Arial, Helvetica, sans-serif;
+
+  color: #4D4F62;
+  line-height: 140%;
+  letter-spacing: 0.1px;
+  font-weight: 300;
+}
+
+.landing-tag
+{
+  font-size: 1rem;
+  font-family: poppins,Arial, Helvetica, sans-serif;
+  color: #4D4F62;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 316px;
+  font-weight: 400;
+}
+
+
+.card-container
+{
+  font-family: poppins,Arial, Helvetica, sans-serif;
+
+  color: #4D4F62;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card
+{
+  width: 314px;
+  height: 250px;
+  /*padding: 2rem 2rem 6rem 2rem ;*/
+  border-radius: 8px;
+  box-shadow: 1px 9px 10px #83a7d25a;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.card-text div
+{
+  font-weight: 600;
+}
+
+.card-text
+{
+  margin: 2rem 2rem 2rem;
+}
+.card p
+{
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.card-image
+{
+  position: absolute;
+  bottom: 40px;
+  right: 25px;
+}
+
+.card-cyan
+{
+  border-top: solid #44D3D2;
+  border-width: 6px;
+}
+.card-red
+{
+  border-top: solid #EA5454;
+  border-width: 6px;
+}
+.card-yellow
+{
+  border-top: solid #FCAE4A;
+  border-width: 6px;
+}
+.card-blue
+{
+   border-top: solid #549EF2;
+   border-width: 6px;
+}
